@@ -12,7 +12,7 @@ a -= b  a = a-b
 a *= b  а = а * b
 a /= b  a = a/b 
 */
-var a: Doble = 7.3
+var a: Double = 7.3
 var b: Double = 2.8
 //Add and Assignment +=
 // Subtract and Assignment -=

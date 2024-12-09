@@ -12,3 +12,18 @@
 */
 
 
+// https://developer.apple.com/documentation/swift/double/random(in:)-5o5ha
+var temperature = Double.random(in: 0.0 ... 40.0)
+var windSpeed = Double.random(in: 0.0 ... 20.0)
+
+
+print("Температура воздуха:", temperature, "℃")
+print("Скорость ветра:", windSpeed, "км/ч")
+
+
+if (temperature > 10.0) && (windSpeed > 0.0) && (temperature < 30.0) && (windSpeed < 15.0) {
+    print("Погода подходит для прогулки")
+} else {
+    print("Погода не подходит для прогулки")
+    }
+
